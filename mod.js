@@ -20,3 +20,10 @@ $(function(){
 	});
 });
 
+$(function()
+  
+  $(".toggle_from").click(function()
+			  
+			  $(".toggle_to").toggle(2000);
+			  });
+  });
